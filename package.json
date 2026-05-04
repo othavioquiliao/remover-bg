@@ -1,0 +1,27 @@
+{
+  "name": "remover-bg",
+  "version": "0.1.0",
+  "description": "Local Bun app to remove image backgrounds with the remove.bg API.",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "bun --watch src/server.ts",
+    "build": "vite build",
+    "test": "bun test",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "jszip": "^3.10.1",
+    "lucide-react": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "typescript": "latest",
+    "vite": "latest"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest"
+  }
+}

@@ -239,7 +239,7 @@ function App() {
         <section className="hero-panel">
           <div className="hero-copy">
             <p className="eyebrow">Processamento em fila</p>
-            <h2>Remova fundos em lote.</h2>
+            <h2>Arraste imagens, escolha uma chave e baixe fundos transparentes.</h2>
           </div>
           <div className="stat-grid">
             <Metric label="Total" value={stats.total} />
